@@ -1,0 +1,168 @@
+/* FOR DEMO */
+BODY {
+	margin:							0px;
+	background: 					#F1F1F1;
+	font-family: 					'Muli', sans-serif;
+	font-size: 						16px;
+}
+
+#Text {
+	position:						absolute;
+	top: 							50%;
+	left:							50%;
+	margin-left: 					-203px;
+	margin-top: 					-98px;
+	height: 						50px;
+	width: 							400px;
+	text-align: 					center;
+	color: 							rgba(0,0,0,0.2);
+	font-size: 						32px;
+}
+
+#Target {
+	top: 							50%;
+	left:							50%;
+	margin-left: 					-203px;
+	margin-top: 					-28px;
+}
+/* FOR DEMO END*/
+
+
+/* FOR PLUGIN */
+#Account {
+	position:						absolute;
+	top: 							20px;
+	right: 							20px;
+	height: 						38px;
+	width: 							406px;
+	text-align: 					center;
+	padding-top: 					18px;
+	color: 							#333;
+	z-index: 						0;
+}
+
+#Account A {
+	color: 							#B9D48B;
+	cursor: 						pointer;
+}
+
+.FORM {
+	position:						absolute;
+	height: 						50px;
+	width: 							400px;
+	overflow:						hidden;
+	border: 						solid 3px #FFF;
+	box-shadow: 					0 0 5px #333;
+	background: 					#FFF;
+	z-index: 						10;
+}
+
+.Wrapper {
+	position: 						absolute;
+	top: 							0px;
+	margin: 						0px;
+	border: 						none;
+	outline:						none;
+	height: 						100%;
+}
+
+.Wrapper INPUT {
+	position: 						relative;
+	display: 						inline;
+	float: 							left;
+	margin: 						0px;
+	padding: 						0px 5px 0px 5px;
+	border: 						none;
+	outline:						none;
+	height: 						100%;
+	color: 							#333;
+	font-family: 					'Muli', sans-serif;
+	font-size: 						16px;
+}
+
+INPUT:disabled {
+	background:						#FFF;
+}
+
+.select {
+	position: 						relative;
+	display: 						inline;
+	float: 							left;
+	height: 						100%;
+	color: 							#333;
+	font-family: 					'Muli', sans-serif;
+	font-size: 						16px;
+}
+
+.select DIV:nth-child(1) {
+	height: 						100%;
+	width: 							100%;
+	margin: 						0px;
+	padding: 						13px 0px 0px 5px;
+	cursor: 						pointer;
+	color:							#333;
+}
+
+.optionContainer {
+	position: 						fixed;
+	display: 						none;
+	border: 						solid 1px #999;
+	background: 					#FFF;
+}
+
+.option {
+	position: 						relative;
+	display: 						inline;
+	float: 							left;
+	color: 							#333;
+	font-family: 					'Muli', sans-serif;
+	font-size: 						16px;
+	width: 							inherit;
+	cursor: 						pointer;
+	padding: 						13px 0px 0px 5px;
+}
+
+.option:hover {
+	background: 					#B9D48B;
+	color: 							#FFF
+}
+
+.Councle {
+	position: 						absolute;
+	height: 						100%;
+	width: 							350px;
+	padding-top: 					15px;
+	background:						#45AAB8;
+	bottom: 						-100%;
+	font-size: 						16px;
+	color: 							#FFF;
+	text-align: 					center;
+	z-index: 						10;
+}
+
+.Submit {
+	position: 						absolute;
+	height: 						50px;
+	width: 							50px;
+	background:						#B9D48B url('IMG/Submit.png');
+	top: 							0px;
+	right: 							0px;
+}
+
+.Submit:hover {
+	background:						#acc581 url('IMG/Submit.png');
+}
+/* FOR PLUGIN END */
+
+
+/* MISC */
+.Submit,
+.Councle,
+.select DIV:nth-child(1),
+.Wrapper {
+	-webkit-user-select: 			none;  
+	-moz-user-select: 				none;    
+	-ms-user-select: 				none;      
+	user-select: 					none;
+}
+/* MISC END */
