@@ -33,7 +33,7 @@ These are all the options for the text input field:
 	placeholder: 			"string"
 }
 ```
-For the regex option, there are default expressions such as email and password.  The expression for email is /[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}/.  The expression for password is /^(?=.*\d).{4,16}$/.  A custom expression can be passed as a string without the two hugging forward slashes.  If regex is not declared, no regex expression will be tested.
+For the regex option, there are default expressions such as email and password.  The expression for email is ``/[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}/``.  The expression for password is ``/^(?=.*\d).{4,16}$/``.  A custom expression can be passed as a string without the two hugging forward slashes.  If regex is not declared, no regex expression will be tested.
 
 This is how the options for the selection menu look:
 ```javascript
@@ -48,7 +48,7 @@ This is how the options for the selection menu look:
 
 function(data){}
 -------------------
-This is the function that will run after the form is completed.  This is where you would put your ajax call to submit the data you have collected.  the data can be called like so:
+This is the function that will run after the form is completed.  This is where you would put your ajax call to submit the data you have collected.  The data can be called like so:
 ```javascript
 function(data) {
 	alert(data.elementName.value);
