@@ -194,23 +194,3 @@ $.fn.minimalForm = function(init,dataArray,exitFunction) {
 		}
 	});
 };
-
-/*
-######################################## RETURN OBJ ##########################################
-
-	data[NAME_GIVEN TO ELEMENT][RETURN_TYPE_VALUES]
-
-	RETURN TYPE VALUES
-
-		FOR SELECT ONLY
-			type
-			error
-			value
-					
-		ALL OTHER
-			type
-			regex
-			error
-			placeholder
-			value
-*/
